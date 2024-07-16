@@ -126,7 +126,7 @@ body {
 @media (min-width: 768px) {
 
     .container {
-        padding: 0 4rem;
+        padding: 0 2rem 3rem;
     }
 
     .header {
@@ -188,15 +188,28 @@ body {
         flex-direction: row;
         gap: 1rem;
     }
+
+    .main__comments--irene {
+        transform: translateY(5%);
+    }
+
+    .main__comments--anne {
+        transform: translateY(10%);
+    }
 }
 
 @media (min-width: 1200px) {
+
+    .container {
+        padding-bottom: 50px;
+    }
+
     .header__text {
         padding-top: 4rem;
     }
 
     .header__title {
-        font-size: 3.1rem;
+        font-size: 3.5rem;
         line-height: .9;
         width: 70%;
         margin-bottom: 1.6rem;
@@ -234,11 +247,15 @@ body {
         margin-inline: 4px;
     }
 
+    .main__comments {
+        margin-top: 50px;
+    }
+
     .main__comments--irene {
-        margin-top: 15px;
+        transform: translateY(5%);
     }
 
     .main__comments--anne {
-        margin-top: 30px;
+        transform: translateY(10%);
     }
 }
